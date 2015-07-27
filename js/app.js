@@ -1,5 +1,5 @@
 var React = require('react');
-var Radiocomp = require('./Radiocomp');
+var Radiocomp = require('./components/Radiocomp');
 
 var App = React.createClass({
 
