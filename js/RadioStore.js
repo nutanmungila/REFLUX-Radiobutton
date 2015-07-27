@@ -13,8 +13,7 @@ var RadioStore = Reflux.createStore({
 model: defaultModel,
 listenables: RadioActions,
 
-onselectItem: function(item) {
-	console.log("RadioStore",item);
+onSelectItem: function(item) {
 	this.model.selectedval = item;
 	this.model.text = "changed nutan";
 	this.trigger(this.model);
